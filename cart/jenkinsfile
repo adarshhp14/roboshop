@@ -1,0 +1,4 @@
+@Library('roboshop')
+
+nodejs.info 'Starting'
+lognodejs.warning 'Nothing to do!'
