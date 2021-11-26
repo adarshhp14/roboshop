@@ -1,0 +1,23 @@
+Frontendpipeline {
+    agent any
+
+    stages {
+        stage('compile') {
+            steps {
+             sh 'echo compile'
+            }
+        }
+
+        stage('Code Quality') {
+            steps {
+             sh 'echo Code Quality'
+            }
+        }
+
+        stage('test Cases') {
+            steps {
+                sh 'Test cases'
+            }
+        }
+    }
+}
